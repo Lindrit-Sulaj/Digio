@@ -1,7 +1,9 @@
+import { Hero } from "@/sections"
+
 export default function Home() {
   return (
-    <main>
-      <div className="text-lg">Hello</div>
+    <main className="w-full">
+      <Hero />
     </main>
   )
 }

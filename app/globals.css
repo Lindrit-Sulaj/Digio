@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero {
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Digio/background_figma_ZLkYj2UlF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677943931563');
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
