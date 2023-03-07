@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import { Merriweather, Poppins, Source_Sans_Pro } from 'next/font/google'
+import Script from 'next/script';
 
 export const merriweather = Merriweather({
   subsets: ['latin'],
@@ -34,6 +35,9 @@ export default function RootLayout({ children }) {
           {children}
         </div>
       </body>
+      <Script 
+      src="https://kit.fontawesome.com/72aeedc907.js"
+      crossOrigin='anonymous' />
     </html>
   )
 }
