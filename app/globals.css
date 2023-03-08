@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background-image: url('https://ik.imagekit.io/0s9lwb2yr/Digio/Digio_-_Hero_section__Laptop__rR9w-gzNF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678207445645');
   background-position: 50% 50%;
@@ -10,4 +14,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+.mobile__nav__category ul{
+  list-style-type: circle;
 }
