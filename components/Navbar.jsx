@@ -131,7 +131,7 @@ const Navbar = () => {
 
             <div className='flex gap-6'>
               <button>Sign in</button>
-              <button className={`md:px-4 px-3 md:py-[10px] py-2 border-solid border-[1px] border-neutral-600  bg-green-400 font-medium rounded-md hover:bg-emerald-300 transition-all text-base ${poppins.className}`}>Get Started</button>
+              <button className={`md:px-4 px-3 md:py-[10px] py-2 border-solid border-[1px] border-neutral-600  bg-custom-green font-medium rounded-md hover:bg-green-400 transition-all text-base ${poppins.className}`}>Get Started</button>
             </div>
           </>
         ) : (

@@ -7,19 +7,25 @@ body {
 }
 
 .hero {
-  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Digio/Digio_-_Hero_section__Laptop__rR9w-gzNF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678207445645');
-  background-position: 50% 50%;
-  width: 100%;
-  height: calc(95vh - 75px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background-color: white;
 }
 
 nav {
   overflow: hidden;
 }
 
-.mobile__nav__category ul{
+.mobile__nav__category ul {
   list-style-type: circle;
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    background-image: url('https://ik.imagekit.io/0s9lwb2yr/Digio/Digio_-_Hero_section__Laptop___W9G8hv4_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678389154778');
+    background-position: 50% 50%;
+    width: 100%;
+    height: calc(95vh - 75px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
