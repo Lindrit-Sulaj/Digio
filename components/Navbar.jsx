@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { merriweather, poppins, sourceSans } from '@/app/layout';
+import { playfair, poppins, sourceSans } from '@/app/layout';
 import useMediaQuery from '@/utils/useMediaQuery';
 
 const Navbar = () => {
@@ -9,12 +9,12 @@ const Navbar = () => {
   const [navOpened, setNavOpened] = useState(false);
 
   return (
-    <div className=' absolute top-0 h-[75px] w-full bg-white border-solid  border-b-[1px] border-b-neutral-300'>
+    <div className='fixed top-0 h-[75px] w-full bg-white border-solid  border-b-[1px] border-b-neutral-300'>
       <nav className={`${sourceSans.className} h-full container mx-auto flex justify-between items-center px-3 md:px-4 text-[17px]`}>
         {breakpoint !== 'sm' ? (
           <>
             <div className='flex items-center'>
-              <h1 className={`text-2xl font-bold mr-6 flex gap-2 items-center ${merriweather.className}`}>
+              <h1 className={`text-2xl font-bold mr-6 flex gap-2 items-center ${playfair.className}`}>
                 <i className="fa-solid fa-chart-simple"></i>
                 <span>Digio</span>
               </h1>
@@ -136,7 +136,7 @@ const Navbar = () => {
           </>
         ) : (
           <div className='flex justify-between items-center w-full'>
-            <h1 className={`text-2xl font-bold mr-6 flex gap-2 items-center ${merriweather.className}`}>
+            <h1 className={`text-2xl font-bold mr-6 flex gap-2 items-center ${playfair.className}`}>
               <i className="fa-solid fa-chart-simple"></i>
               <span>Digio</span>
             </h1>
@@ -154,8 +154,6 @@ const Navbar = () => {
         )}
 
       </nav>
-
-      <div>{breakpoint}</div>
     </div>
   )
 }
@@ -192,7 +190,7 @@ const Mobile = () => {
       animate={{ x: 0 }}
       exit={{ x: "-100vw" }}
       transition={{ type: 'just', duration: .2 }}
-      className="bg-slate-800 min-h-[calc(100vh-75px)] h-auto w-[80%] shadow-2xl absolute px-4 py-4 top-[75px] left-0" >
+      className="bg-slate-800 h-[calc(100vh-75px)] top-[75px] overflow-y-auto w-[80%] shadow-2xl fixed px-4 py-4 left-0" >
       <div className='my-3'>
         <button className={`text-lg px-2  py-1 flex items-center justify-between ${poppins.className} font-medium w-full text-white`} onClick={() => setOpenedLink((openedLink === "Company" ? "" : "Company"))}>
           <span>Company</span>
