@@ -9,7 +9,7 @@ const Navbar = () => {
   const [navOpened, setNavOpened] = useState(false);
 
   return (
-    <div className='fixed top-0 h-[75px] w-full bg-white border-solid  border-b-[1px] border-b-neutral-300'>
+    <div className='absolute top-0 h-[75px] w-full bg-white border-solid  border-b-[1px] border-b-neutral-300 z-50'>
       <nav className={`${sourceSans.className} h-full container mx-auto flex justify-between items-center px-3 md:px-4 text-[17px]`}>
         {breakpoint !== 'sm' ? (
           <>
@@ -173,7 +173,7 @@ const NavLink = ({ hoverComponent, title }) => {
       {
         (isLinkHovered || isCardHovered) && <motion.div
           onHoverStart={(e) => setIsCardHovered(true)}
-          onHoverEnd={(e) => setIsCardHovered(false)} className='absolute bg-white border-solid border-[1px] border-neutral-300 rounded-lg p-3 pt-4 w-auto' layoutId="card">
+          onHoverEnd={(e) => setIsCardHovered(false)} className='absolute bg-white border-solid border-[1px] z-[100] border-neutral-300 rounded-lg p-3 pt-4 w-auto' layoutId="card">
           {hoverComponent}
         </motion.div>
       }
