@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         darkBackground: '#001e2b',
         custom: {
-          green: '#00ed64'
+          green: '#00ed64',
+          gray: '#adbab9'
         }
       }
     },

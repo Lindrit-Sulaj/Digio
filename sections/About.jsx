@@ -7,12 +7,12 @@ const About = () => {
   const [selectedTab, setSelectedTab] = useState('Our Work Process')
 
   return (
-    <section className="about py-10">
+    <section className="about py-10 lg:py-0 xl:py-10">
       <div className='container mx-auto py-10 px-4'>
         <h2 className={`${playfair.className} text-3xl md:text-4xl lg:text-5xl text-white font-medium tracking-wide`}>Innovative Solutions for Your Online Presence</h2>
         <h3 className='text-neutral-400 text-lg md:text-xl lg:text-2xl font-medium mt-6'>We deliver high quality, responsive and fast websites.</h3>
 
-        <div className='flex flex-wrap justify-center lg:justify-between mt-10 lg:mt-0 items-center lg:flex-nowrap'>
+        <div className='flex flex-wrap justify-center lg:justify-between mt-10 md:mt-[70px] lg:mt-10 items-center lg:flex-nowrap'>
           <div className='flex flex-col w-full lg:w-1/2 gap-10'>
             <LayoutGroup>
               <Tab
