@@ -4,7 +4,7 @@ import Service from '@/components/Service'
 
 export default function Services() {
   return (
-    <section className="services bg-darkBackground px-4 lg:px-0 py-8">
+    <section className="services bg-darkBackground px-4 lg:px-0 py-8 pb-24">
       <div className='container mx-auto grid gap-6 place-content-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         <Service
           icon="fa-solid fa-code"

@@ -13,9 +13,10 @@ module.exports = {
     extend: {
       colors: {
         darkBackground: '#001e2b',
+        backgroundSecondary: '#1F2332',
         custom: {
           green: '#00ed64',
-          gray: '#adbab9'
+          lightGray: '#adbab9',
         }
       }
     },

@@ -34,9 +34,9 @@ export default function RootLayout({ children }) {
           {children}
         </div>
       </body>
-      <Script 
-      src="https://kit.fontawesome.com/72aeedc907.js"
-      crossOrigin='anonymous' />
+      <Script
+        src="https://kit.fontawesome.com/72aeedc907.js"
+        crossOrigin='anonymous' />
     </html>
   )
 }
