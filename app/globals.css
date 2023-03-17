@@ -20,6 +20,10 @@
   background-position: center;
 }
 
+.testimonials {
+  overflow-x: hidden;
+}
+
 .mobile__nav__category ul {
   list-style-type: circle;
 }
