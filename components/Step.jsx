@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Step({ title, text, img }) {
   return (
-    <div className='w-full flex items-center flex-wrap justify-between'>
+    <div className='w-full flex items-center flex-wrap justify-between gap-y-10'>
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -16,7 +16,7 @@ function Step({ title, text, img }) {
       <motion.img
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        transition={{ type: 'just' }} className='w-full lg:w-1/2 xl:w-[500px]' src={img} alt={`${title} image`} />
+        transition={{ type: 'just' }} className='w-full lg:w-1/2 md:max-w-[400px] mx-auto xl:max-w-[500px]' src={img} alt={`${title} image`} />
     </div>
   )
 }

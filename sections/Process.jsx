@@ -31,27 +31,29 @@ function Process() {
   const [currentStep, setCurrentStep] = useState(0);
 
   return (
-    <div className='process'>
-      <section className="py-20 px-8 xl:px-0 overflow-x-hidden rounded-tr-[120px]">
-        <div className='container mx-auto'>
-          <h2 className={`${playfair.className} text-3xl md:text-4xl lg:text-5xl text-white font-medium tracking-wide`}>Work Process</h2>
-          <h3 className='text-neutral-400 text-lg md:text-xl lg:text-2xl font-medium mt-6'>A well-defined process helps delivering high-quality results</h3>
-          <div className='process__buttons flex gap-3 justify-between md:justify-start md:gap-4 mt-6 mb-14 lg:mb-0 overflow-x-auto'>
-            {processStages.map((stage, index) => (
-              <Button
-                key={index}
-                index={index}
-                name={stage.title}
-                setCurrentStep={setCurrentStep}
-                currentStep={currentStep} />
-            ))}
+    <div className="bg-backgroundSecondary">
+      <div className='process rounded-tr-[120px]'>
+        <section className="py-20 px-8 xl:px-0 overflow-x-hidden rounded-tr-[120px]">
+          <div className='container mx-auto'>
+            <h2 className={`${playfair.className} text-3xl md:text-4xl lg:text-5xl text-white font-medium tracking-wide`}>Work Process</h2>
+            <h3 className='text-neutral-400 text-lg md:text-xl lg:text-2xl font-medium mt-6'>A well-defined process helps delivering high-quality results</h3>
+            <div className='process__buttons flex gap-3 justify-between md:justify-start md:gap-4 mt-6 mb-14 lg:mb-0 overflow-x-auto'>
+              {processStages.map((stage, index) => (
+                <Button
+                  key={index}
+                  index={index}
+                  name={stage.title}
+                  setCurrentStep={setCurrentStep}
+                  currentStep={currentStep} />
+              ))}
+            </div>
+            <Step
+              title={processStages[currentStep].title}
+              text={processStages[currentStep].text}
+              img={processStages[currentStep].image} />
           </div>
-          <Step
-            title={processStages[currentStep].title}
-            text={processStages[currentStep].text}
-            img={processStages[currentStep].image} />
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   )
 }
