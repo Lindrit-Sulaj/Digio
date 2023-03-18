@@ -52,7 +52,7 @@ function Testimonials() {
 
   const paginate = (newDirection) => {
     setIndex(index + newDirection);
-    setDirection(direction)
+    setDirection(newDirection)
   }
 
   return (

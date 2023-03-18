@@ -190,7 +190,7 @@ const Mobile = () => {
       animate={{ x: 0 }}
       exit={{ x: "-100vw" }}
       transition={{ type: 'just', duration: .2 }}
-      className="bg-slate-800 h-[calc(100vh-75px)] top-[75px] overflow-y-auto w-[80%] shadow-2xl fixed px-4 py-4 left-0" >
+      className="bg-slate-800 h-[calc(100vh-75px)] top-[75px] overflow-y-auto w-full shadow-2xl fixed px-4 py-4 left-0" >
       <div className='my-3'>
         <button className={`text-lg px-2  py-1 flex items-center justify-between ${poppins.className} font-medium w-full text-white`} onClick={() => setOpenedLink((openedLink === "Company" ? "" : "Company"))}>
           <span>Company</span>
