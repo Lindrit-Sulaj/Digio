@@ -20,8 +20,8 @@ function Project({ title, description, image }) {
   const hoverStyle = {
     background: `linear-gradient(
       to top,
-      rgba(0, 10, 30, .8), 
-      rgba(0, 10, 30, .8)
+      rgba(0, 3, 10, .9), 
+      rgba(0, 3, 10, .9)
     ),
     url(${image})`
   }

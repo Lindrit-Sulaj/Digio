@@ -52,9 +52,23 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
 }
 
+.start-today {
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Digio/Digio_-_Continue_Journey_vwcOa8prZ.png?updatedAt=1679252044520');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* width */
 .process__buttons::-webkit-scrollbar, .pricing__buttons::-webkit-scrollbar {
   width: 0px!important;
+}
+
+.pricing {
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Digio/Digio_-_Pricing_Z2fPd1hS3.png?updatedAt=1679249154046');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (min-width: 768px) {

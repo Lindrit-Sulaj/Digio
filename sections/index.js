@@ -5,6 +5,7 @@ import Testimonials from "./Testimonials";
 import Process from "./Process";
 import Projects from "./Projects";
 import Pricing from "./Pricing";
+import StartToday from "./StartToday";
 
 export {
   Hero,
@@ -13,5 +14,6 @@ export {
   Testimonials,
   Process,
   Projects,
-  Pricing
+  Pricing,
+  StartToday
 }
