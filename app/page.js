@@ -1,4 +1,4 @@
-import { Hero, About, Services, Process, Testimonials } from "@/sections"
+import { Hero, About, Services, Process, Testimonials, Projects, Pricing } from "@/sections"
 
 export default function Home() {
   return (
@@ -8,6 +8,9 @@ export default function Home() {
       <Services />
       <Testimonials />
       <Process />
+      <div className="h-[90px] rounded-b-[90px] bg-darkBackground"></div>
+      <Projects />
+      <Pricing />
     </main>
   )
 }

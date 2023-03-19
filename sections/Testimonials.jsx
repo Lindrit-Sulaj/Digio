@@ -59,7 +59,7 @@ function Testimonials() {
     <section className="testimonials bg-backgroundSecondary px-4 py-14 lg:px-0 lg:py-20">
       <div className='flex flex-wrap lg:flex-nowrap gap-y-10 mx-auto container items-center gap-x-8'>
         <div className='w-full lg:w-1/2'>
-          <h2 className='text-white font-bold text-3xl md:text-4xl'>Don't just take our word for it</h2>
+          <h2 className='text-white font-bold text-[27px] md:text-4xl'>Don't just take our word for it</h2>
           <p className='max-w-xl text-custom-lightGray text-[17px] font-medium mt-4'>Check out what our clients have to say about our services and see why Digio is the best choice for your digital marketing and web development needs.</p>
 
           <div className='border-solid border-[1px] border-neutral-600 px-3 py-3 flex rounded-full w-[80px] justify-center gap-1 mt-10'>
