@@ -10,7 +10,7 @@ const screenBreakpoints = {
 }
 
 const useMediaQuery = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(0);
   const [breakpoint, setBreakpoint] = useState('sm');
 
   const handleResize = () => {
