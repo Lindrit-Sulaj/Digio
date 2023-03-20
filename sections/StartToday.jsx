@@ -11,7 +11,7 @@ function StartToday() {
           </p>
           <h1 className={`text-2xl lg:text-3xl font-bold text-white mt-6 max-w-2xl`}>Innovation starts with collaboration. Let's partner up.</h1>
           <p className='text-custom-lightGray lg:text-lg font-medium mt-6'>In a fast-paced world, let Digio be your steady partner for success.</p>
-          <button className='mt-6 px-6 rounded-lg py-[13px] bg-custom-green font-medium border-solid border-[1px] border-neutral-600'>Get Started</button>
+          <button className='mt-6 px-6 rounded-lg py-[13px] bg-custom-green font-medium shadow-lg'>Get Started</button>
         </div>
         <div className='w-full lg:w-[38%] border-solid px-10 py-12 border-[1px] border-neutral-300 rounded-3xl m-2 md:m-0'>
           <p className={`border-solid border-l-[1px] border-l-custom-green px-3 uppercase ${sourceSans.className} uppercase tracking-widest mb-6`}>

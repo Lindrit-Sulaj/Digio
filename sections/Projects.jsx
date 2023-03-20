@@ -46,7 +46,7 @@ function Projects() {
             <i className="fa-solid fa-arrow-right-long ml-3"></i>
           </button>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 mt-8 rounded-xl overflow-hidden'>
+        <div className='grid grid-cols-1 gap-y-6 md:gap-y-0 md:grid-cols-3 mt-8 rounded-xl overflow-hidden'>
           { projectsData.map(project => (
             <Project 
             key={project.name} 

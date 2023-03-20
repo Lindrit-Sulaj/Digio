@@ -56,7 +56,7 @@ const Tab = ({ title, description, selectedTab, setSelectedTab }) => {
           <motion.p 
           initial={{ height: 0 }} 
           animate={{ height: "auto"}} 
-          exit={{ height: 0 }} className={`text-neutral-400 overflow-hidden font-medium leading-8 text-[17px] max-w-2xl`}>
+          exit={{ height: 0 }} className={`text-neutral-400 overflow-hidden font-medium leading-8 md:text-[17px] max-w-2xl`}>
             {description}
           </motion.p>
         )}

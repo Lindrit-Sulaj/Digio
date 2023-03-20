@@ -8,7 +8,7 @@ export default function Home() {
       <Services />
       <Testimonials />
       <Process />
-      <div className="h-[90px] rounded-b-[90px] bg-darkBackground"></div>
+      <div className="h-[70px] rounded-b-[70px] md:h-[90px] md:rounded-b-[90px] bg-darkBackground"></div>
       <Projects />
       <Pricing />
       <StartToday />

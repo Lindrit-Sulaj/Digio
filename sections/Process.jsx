@@ -32,7 +32,7 @@ function Process() {
 
   return (
     <div className="bg-backgroundSecondary">
-      <div className='process rounded-tr-[90px]'>
+      <div className='process rounded-tr-[70px] md:rounded-tr-[90px]'>
         <section className="pt-20 px-8 xl:px-0 overflow-x-hidden">
           <div className='container mx-auto'>
             <h2 className={`${playfair.className} text-3xl md:text-4xl lg:text-5xl text-white font-medium tracking-wide`}>Work Process</h2>
