@@ -31,7 +31,7 @@ function Project({ title, description, image }) {
       onHoverStart={hover}
       onHoverEnd={unHover}
       style={style}
-      className="bg-no-repeat bg-cover relative bg-center h-[300px] flex items-end p-4 cursor-pointer">
+      className="bg-no-repeat bg-cover relative bg-center h-[180px] md:h-[300px] flex items-end p-4 cursor-pointer">
       <h4 className='text-white font-semibold text-[22px]'>{title}</h4>
       <AnimatePresence>
         {isHovered && (

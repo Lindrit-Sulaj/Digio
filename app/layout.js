@@ -1,5 +1,6 @@
 import './globals.css';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import { Merriweather, Poppins, Source_Sans_Pro, Playfair_Display } from 'next/font/google'
 import Script from 'next/script';
 
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         <div className={`${poppins.className} pt-[75px]`}>
           {children}
         </div>
+        <Footer />
       </body>
       <Script
         src="https://kit.fontawesome.com/72aeedc907.js"

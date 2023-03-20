@@ -4,7 +4,7 @@ import { sourceSans, poppins } from '@/app/layout';
 function StartToday() {
   return (
     <section className="startToday my-10">
-      <div className='container mx-auto flex flex-wrap items-stretch lg:flex-nowrap gap-12'>
+      <div className='container mx-auto flex flex-wrap items-stretch lg:flex-nowrap gap-x-12 gap-y-6'>
         <div className="mx-auto w-full lg:w-[62%] start-today rounded-3xl overflow-hidden px-12 flex flex-col justify-center items-start py-16">
           <p className={`border-solid border-l-[1px] border-l-custom-green px-3 uppercase ${sourceSans.className} uppercase text-white tracking-widest`}>
             Start Here
@@ -15,7 +15,7 @@ function StartToday() {
         </div>
         <div className='w-full lg:w-[38%] border-solid px-10 py-12 border-[1px] border-neutral-300 rounded-3xl m-2 md:m-0'>
           <p className={`border-solid border-l-[1px] border-l-custom-green px-3 uppercase ${sourceSans.className} uppercase tracking-widest mb-6`}>
-            Start Here
+            More information
           </p>
 
           <ul>
