@@ -8,7 +8,7 @@ export default function Hero() {
           <h3 className={`mb-3 text-green-600 border-solid border-l-[2px] border-l-green-300 pl-2 font-medium ${sourceSans.className} uppercase tracking-wider`}>
             Digio
           </h3>
-          <h1 className={`text-3xl md:text-4xl lg:text-5xl xl:text-5xl max-w-sm md:max-w-none mb-8 ${playfair.className}`}>Maximize Your Online Potential</h1>
+          <h1 className={`text-3xl md:text-4xl lg:text-5xl xl:text-6xl max-w-sm md:max-w-none mb-8 ${playfair.className}`}>Maximize Your Online Potential</h1>
           <p className={`${poppins.className} xl:text-lg text-neutral-500 max-w-xl`}>We are a leading web development and digital marketing company that helps businesses grow their online presence, by improving their website or digital marketing.</p>
 
           <div className="mt-8 flex flex-wrap md:flex-nowrap gap-6">
